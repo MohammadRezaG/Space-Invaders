@@ -1,0 +1,216 @@
+space-invaders.rb-master/bin/space-invaders
+space-invaders.rb-master/lib/space_invaders.rb
+space-invaders.rb-master/lib/space_invaders/app.rb
+space-invaders.rb-master/lib/space_invaders/base.rb
+space-invaders.rb-master/lib/space_invaders/utils.rb
+space-invaders.rb-master/lib/space_invaders/behaviors/centerable.rb
+space-invaders.rb-master/lib/space_invaders/behaviors/collideable.rb
+space-invaders.rb-master/lib/space_invaders/behaviors/fireable.rb
+space-invaders.rb-master/lib/space_invaders/behaviors/mesurable.rb
+space-invaders.rb-master/lib/space_invaders/blocks/block.rb
+space-invaders.rb-master/lib/space_invaders/blocks/u_block_container.rb
+space-invaders.rb-master/lib/space_invaders/blocks/u_block.rb
+space-invaders.rb-master/lib/space_invaders/bullets/bullet_collection.rb
+space-invaders.rb-master/lib/space_invaders/bullets/bullet.rb
+space-invaders.rb-master/lib/space_invaders/invaders/invader_abc.rb
+space-invaders.rb-master/lib/space_invaders/invaders/invader_row.rb
+space-invaders.rb-master/lib/space_invaders/invaders/invader.rb
+space-invaders.rb-master/lib/space_invaders/invaders/invaders_container.rb
+space-invaders.rb-master/lib/space_invaders/invaders/red_invader.rb
+space-invaders.rb-master/lib/space_invaders/screens/game_over_screen.rb
+space-invaders.rb-master/lib/space_invaders/screens/next_level_screen.rb
+space-invaders.rb-master/lib/space_invaders/screens/welcome_screen.rb
+space-invaders.rb-master/lib/space_invaders/ship/drowned_ship_animator.rb
+space-invaders.rb-master/lib/space_invaders/ship/ship.rb
+space-invaders.rb-master/lib/space_invaders/statics/button_controller.rb
+space-invaders.rb-master/lib/space_invaders/statics/game_status.rb
+space-invaders.rb-master/lib/space_invaders/statics/images.rb
+space-invaders.rb-master/lib/space_invaders/statics/sounds.rb
+space-invaders.rb-master/lib/space_invaders/trackers/lives_tracker.rb
+space-invaders.rb-master/lib/space_invaders/trackers/score_tracker.rb
+space-invaders.rb-master/.gitignore
+space-invaders.rb-master/Gemfile
+space-invaders.rb-master/go.rb
+space-invaders.rb-master/LICENSE.txt
+space-invaders.rb-master/Rakefile
+space-invaders.rb-master/README.md
+space-invaders.rb-master/space_invaders.gemspec
+Release/Space Invaders.zip
+Release/Space Invaders/__init__.py
+Release/Space Invaders/_asyncio.pyd
+Release/Space Invaders/_bz2.pyd
+Release/Space Invaders/_ctypes.pyd
+Release/Space Invaders/_decimal.pyd
+Release/Space Invaders/_elementtree.pyd
+Release/Space Invaders/_hashlib.pyd
+Release/Space Invaders/_lzma.pyd
+Release/Space Invaders/_multiprocessing.pyd
+Release/Space Invaders/_overlapped.pyd
+Release/Space Invaders/_queue.pyd
+Release/Space Invaders/_socket.pyd
+Release/Space Invaders/_ssl.pyd
+Release/Space Invaders/_win32sysloader.pyd
+Release/Space Invaders/api-ms-win-core-console-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-datetime-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-debug-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-errorhandling-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-file-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-file-l1-2-0.dll
+Release/Space Invaders/api-ms-win-core-file-l2-1-0.dll
+Release/Space Invaders/api-ms-win-core-handle-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-heap-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-interlocked-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-libraryloader-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-localization-l1-2-0.dll
+Release/Space Invaders/api-ms-win-core-memory-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-namedpipe-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-processenvironment-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-processthreads-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-processthreads-l1-1-1.dll
+Release/Space Invaders/api-ms-win-core-profile-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-rtlsupport-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-string-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-synch-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-synch-l1-2-0.dll
+Release/Space Invaders/api-ms-win-core-sysinfo-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-timezone-l1-1-0.dll
+Release/Space Invaders/api-ms-win-core-util-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-conio-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-convert-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-environment-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-filesystem-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-heap-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-locale-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-math-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-multibyte-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-process-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-runtime-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-stdio-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-string-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-time-l1-1-0.dll
+Release/Space Invaders/api-ms-win-crt-utility-l1-1-0.dll
+Release/Space Invaders/base_library.zip
+Release/Space Invaders/games.py
+Release/Space Invaders/libcrypto-1_1.dll
+Release/Space Invaders/libffi-7.dll
+Release/Space Invaders/libFLAC-8.dll
+Release/Space Invaders/libfreetype-6.dll
+Release/Space Invaders/libjpeg-9.dll
+Release/Space Invaders/libmodplug-1.dll
+Release/Space Invaders/libmpg123-0.dll
+Release/Space Invaders/libogg-0.dll
+Release/Space Invaders/libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
+Release/Space Invaders/libopus-0.dll
+Release/Space Invaders/libopusfile-0.dll
+Release/Space Invaders/libpng16-16.dll
+Release/Space Invaders/libssl-1_1.dll
+Release/Space Invaders/libtiff-5.dll
+Release/Space Invaders/libvorbis-0.dll
+Release/Space Invaders/libvorbisfile-3.dll
+Release/Space Invaders/libwebp-7.dll
+Release/Space Invaders/load.py
+Release/Space Invaders/mfc140u.dll
+Release/Space Invaders/objects.py
+Release/Space Invaders/portmidi.dll
+Release/Space Invaders/pyexpat.pyd
+Release/Space Invaders/python38.dll
+Release/Space Invaders/pythoncom38.dll
+Release/Space Invaders/pywintypes38.dll
+Release/Space Invaders/SDL2_image.dll
+Release/Space Invaders/SDL2_mixer.dll
+Release/Space Invaders/SDL2_ttf.dll
+Release/Space Invaders/SDL2.dll
+Release/Space Invaders/select.pyd
+Release/Space Invaders/setings.INI
+Release/Space Invaders/Space Invaders.exe
+Release/Space Invaders/Space Invaders.exe.manifest
+Release/Space Invaders/ucrtbase.dll
+Release/Space Invaders/unicodedata.pyd
+Release/Space Invaders/VCRUNTIME140.dll
+Release/Space Invaders/win32api.pyd
+Release/Space Invaders/win32pdh.pyd
+Release/Space Invaders/win32trace.pyd
+Release/Space Invaders/win32ui.pyd
+Release/Space Invaders/win32wnet.pyd
+Release/Space Invaders/zlib1.dll
+Release/Space Invaders/Include/pyconfig.h
+Release/Space Invaders/assets/fonts/unifont.ttf
+Release/Space Invaders/assets/images/background.png
+Release/Space Invaders/assets/images/bullet_1.png
+Release/Space Invaders/assets/images/Bullet_red.png
+Release/Space Invaders/assets/images/Bullet.png
+Release/Space Invaders/assets/images/enemy.png
+Release/Space Invaders/assets/images/FullBlock.png
+Release/Space Invaders/assets/images/InvaderA1.png
+Release/Space Invaders/assets/images/InvaderA2.png
+Release/Space Invaders/assets/images/InvaderB1.png
+Release/Space Invaders/assets/images/InvaderB2.png
+Release/Space Invaders/assets/images/InvaderC1.png
+Release/Space Invaders/assets/images/InvaderC2.png
+Release/Space Invaders/assets/images/OkBlock.png
+Release/Space Invaders/assets/images/player.png
+Release/Space Invaders/assets/images/RedInvader.png
+Release/Space Invaders/assets/images/Ship.png
+Release/Space Invaders/assets/images/ShipCrushedLeft.png
+Release/Space Invaders/assets/images/ShipCrushedRight.png
+Release/Space Invaders/assets/images/ShipWhite.png
+Release/Space Invaders/assets/images/ufo.png
+Release/Space Invaders/assets/images/WeakBlock.png
+Release/Space Invaders/assets/sounds/background.wav
+Release/Space Invaders/assets/sounds/explosion.wav
+Release/Space Invaders/assets/sounds/InvaderBullet.wav
+Release/Space Invaders/assets/sounds/InvaderHit.wav
+Release/Space Invaders/assets/sounds/laser.wav
+Release/Space Invaders/assets/sounds/ShipBullet.wav
+Release/Space Invaders/assets/sounds/ShipHit.wav
+Release/Space Invaders/numpy/core/_multiarray_tests.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/core/_multiarray_umath.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/fft/_pocketfft_internal.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/linalg/_umath_linalg.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/linalg/lapack_lite.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/random/_bounded_integers.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/random/_common.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/random/_generator.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/random/_mt19937.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/random/_pcg64.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/random/_philox.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/random/_sfc64.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/random/bit_generator.cp38-win_amd64.pyd
+Release/Space Invaders/numpy/random/mtrand.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/_freetype.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/base.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/bufferproxy.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/color.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/constants.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/display.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/draw.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/event.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/fastevent.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/font.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/freesansbold.ttf
+Release/Space Invaders/pygame/image.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/imageext.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/joystick.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/key.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/mask.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/math.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/mixer_music.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/mixer.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/mouse.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/pixelarray.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/pixelcopy.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/pygame_icon.bmp
+Release/Space Invaders/pygame/rect.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/rwobject.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/scrap.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/surface.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/surflock.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/time.cp38-win_amd64.pyd
+Release/Space Invaders/pygame/transform.cp38-win_amd64.pyd
+Release/Space Invaders/win32com/shell/shell.pyd
+__pycache__/__init__.cpython-38.pyc
+__pycache__/games.cpython-38.pyc
+__pycache__/load.cpython-38.pyc
+__pycache__/main.cpython-38.pyc
+__pycache__/main1.cpython-38.pyc
+__pycache__/objects.cpython-38.pyc
